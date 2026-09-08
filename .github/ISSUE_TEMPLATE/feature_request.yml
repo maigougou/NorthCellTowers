@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest a feature or improvement for North Cell Towers.
+title: "[Feature] "
+labels: ["enhancement", "status:needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing requests first. English, French and Simplified Chinese are welcome.
+        Describe one idea per issue and the situation it would improve.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to do, and what makes it difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the behavior or outcome you would like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or current workaround
+      description: How do you handle this today? Other approaches are welcome.
+  - type: textarea
+    id: success
+    attributes:
+      label: What would make this useful?
+      description: Give a concrete example of how you would use the improvement.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context or examples
+      description: Add sketches, screenshots or links if helpful. Remove personal information before posting.

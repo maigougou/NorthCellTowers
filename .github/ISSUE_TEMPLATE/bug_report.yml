@@ -1,0 +1,86 @@
+name: Bug report
+description: Report a problem with North Cell Towers on iOS.
+title: "[Bug] "
+labels: ["bug", "status:needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. English, French and Simplified Chinese are welcome.
+        Reports and attachments are public; remove personal information and your device's location from screenshots.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include relevant settings and filters. If it happened only once, describe what you were doing.
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version and build
+      description: Find this in the app's Settings or TestFlight. Write unknown if the app cannot open.
+      placeholder: "For example: 1.0.0 (7)"
+    validations:
+      required: true
+  - type: input
+    id: device-ios
+    attributes:
+      label: Device model and iOS version
+      placeholder: "For example: iPhone 13, iOS version including any beta build"
+    validations:
+      required: true
+  - type: dropdown
+    id: distribution
+    attributes:
+      label: Installation source
+      options:
+        - TestFlight
+        - App Store
+        - Local development build
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected feature
+      options:
+        - Explore map and filters
+        - Antenna diagram and site details
+        - Nearby
+        - Insights
+        - Data download or offline use
+        - Favorites, notes or export
+        - Look Around or navigation
+        - Settings or Pro supporter
+        - Accessibility or translation
+        - Other / unsure
+  - type: textarea
+    id: site-data-context
+    attributes:
+      label: Site and data context
+      description: For site, frequency or statistics issues, include the carrier, reported site's coordinates/ID, database version/date, active filters and any selected month or Province/Territory. For connection issues, mention Wi-Fi/cellular/offline mode.
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots, recordings or additional details
+      description: Attach images or a short recording if helpful. Include error messages and whether the problem happens every time.
