@@ -1,8 +1,14 @@
 # North Cell Towers
 
-Public bug reports and feature requests for **North Cell Towers**, a native iOS app for exploring Canadian cellular sites, frequencies and antenna information. The app appears as **Cell Towers** on the Home Screen.
+Public bug reports and feature requests for **North Cell Towers**, a native iOS app for exploring Canadian cellular sites, frequencies and antenna information.
 
-This repository contains feedback documentation and Issue forms. The iOS app's source code is not published here.
+This repository contains the public support and privacy pages, feedback documentation and Issue forms. The iOS app's source code is not published here.
+
+## Website
+
+- [North Cell Towers](https://maigougou.github.io/NorthCellTowers/)
+- [Support](https://maigougou.github.io/NorthCellTowers/support.html)
+- [Privacy](https://maigougou.github.io/NorthCellTowers/privacy.html)
 
 ## Submit feedback
 
@@ -34,4 +40,4 @@ Maintainers replace the status label as work progresses. `priority:high` identif
 
 North Cell Towers uses ISED Spectrum Management System data. Reported installations and antenna parameters are not measured coverage or live service guarantees.
 
-The independent [ISED Spectrum Data repository](https://github.com/maigougou/ISED-Spectrum-Data) maintains the public data pipeline. App reports can start here, including uncertainty about whether a problem comes from the app or its data.
+App and data reports can both start here. North Cell Towers is not affiliated with ISED, the Government of Canada or any carrier.
